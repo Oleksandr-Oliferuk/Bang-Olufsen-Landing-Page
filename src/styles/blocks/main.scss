@@ -1,0 +1,11 @@
+.main {
+  display: grid;
+  max-width: 1260px;
+  margin: 0 auto;
+
+
+
+  @include responsive-template(padding-block, 64px, 120px, 120px);
+
+  @include responsive-template(row-gap, 96px, 120px, 120px);
+}
